@@ -1,0 +1,286 @@
+body,
+html,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+/* header */
+.header {
+  height: 35px;
+  background-color: #000;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.header-right {
+  float: right;
+  height: 35px;
+}
+
+.header-nav {
+  height: 35px;
+}
+
+.header-nav li {
+  padding: 0 12px;
+  float: left;
+  font-size: 10px;
+  font-family: "Arial";
+  font-weight: bold;
+  font-style: normal;
+  color: #fff;
+  line-height: 35px;
+  border-top: 2px solid transparent;
+}
+
+.header-nav li a {
+  text-decoration: none;
+  font-size: 10px;
+  font-family: "Arial";
+  font-weight: bold;
+  font-style: normal;
+  color: #fff;
+}
+
+.nav-line {
+  display: inline-block;
+  width: 1px;
+  height: 16px;
+  background-color: #7b706c;
+  position: absolute;
+  top: 8px;
+}
+
+.icon_arrow {
+  display: inline-block;
+  width: 12px;
+  height: 9px;
+  background-image: url(https://www.jaeger-lecoultre.cn/etc/designs/richemont-jlc/clientlibs/jlc-framework-header/assets/images/icons/icon-arrow-down-bronze.svg);
+  background-repeat: no-repeat;
+  background-position: 0 4px;
+  margin-left: 7.5px;
+}
+
+.nav_user {
+  display: inline-block;
+  width: 36px;
+  height: 12px;
+  background-image: url(../../../static/imgs/header_nav3.png);
+  margin-right: 8px;
+}
+
+.nav_search {
+  display: inline-block;
+  width: 12px;
+  height: 13px;
+  background-image: url(https://www.jaeger-lecoultre.cn/etc/designs/richemont-jlc/clientlibs/jlc-framework-header/assets/images/icons/icon-search-bronze.svg);
+  background-repeat: no-repeat;
+  margin-left: .625em;
+  vertical-align: middle;
+}
+
+.nav_bag {
+  display: inline-block;
+  width: 20px;
+  height: 15px;
+  background-image: url(https://www.jaeger-lecoultre.cn/etc/designs/richemont-jlc/clientlibs/jlc-framework-header/assets/images/icons/icon-basket-bronze.svg);
+  background-repeat: no-repeat;
+}
+
+.nav_top_line {
+  border-top: 2px solid #7b706c!important;
+}
+
+.header-nav li:hover {
+  border-top-color: #7b706c;
+}
+
+.header-left {
+  height: 35px;
+  color: #fff;
+  font-weight: normal;
+  font-style: normal;
+  text-transform: none;
+  font-size: 14px;
+}
+
+.header-home {
+  width: 15px;
+  height: 12.25px;
+  display: inline-block;
+  background-image: url(https://www.jaeger-lecoultre.cn/etc/designs/richemont-jlc/clientlibs/jlc-framework-header/assets/images/icons/icon-home-white.svg);
+  background-repeat: no-repeat;
+  margin-top: 10px;
+}
+
+.my-jlc {
+  display: inline-block;
+  height: 30px;
+  width: 82px;
+  background-image: url("../../../static/imgs/myjlc.png");
+  background-size: cover;
+  vertical-align: middle;
+}
+
+/* focus */
+.focus {
+  height: 820px;
+  position: relative;
+}
+
+.focus-img {
+  background-image: url(https://www.jaeger-lecoultre.cn/content/dam/MyJLC/my-jlc-1.jpg.crop.683.769.jpg);
+  position: absolute;
+  right: 0;
+  height: 820px;
+  width: 50%;
+  background-size: cover;
+}
+
+.focus-content {
+  width: 50%;
+  height: 820px;
+  position: absolute;
+  left: 0;
+}
+
+.focus-content h1 {
+  font-size: 44px;
+  font-weight: bold;
+  line-height: 50px;
+  letter-spacing: 3px;
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial',sans-serif;
+  color: #25282a;
+  margin-bottom: 126px;
+  display: block;
+  width: 300px;
+  margin-left: 75px;
+  margin-top: 45px;
+}
+
+.focus-content h2 {
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 30px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-family: 'Arial',sans-serif;
+  color: #25282a;
+  margin-left: 75px;
+}
+
+#login-username {
+  height: 50px;
+  line-height: 50px;
+  width: 547px;
+  padding-left: 15px;
+  background: #f4f4f4;
+  border: 1px solid #ebebeb;
+  font-size: 14px;
+  outline: none;
+  margin-left: 75px;
+}
+
+#login-password {
+  height: 50px;
+  line-height: 50px;
+  width: 347px;
+  padding-left: 15px;
+  background: #f4f4f4;
+  border: 1px solid #ebebeb;
+  font-size: 14px;
+  outline: none;
+  margin-left: 75px;
+  margin-top: 25px;
+}
+
+#login-go {
+  line-height: 50px;
+  width: 196px;
+  color: #fff;
+  background-color: #25282a;
+  border: 1px solid #ebebeb;
+  outline: none;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+#login-go:hover {
+  background-color: #7b706c;
+}
+
+.goback-password {
+  margin-top: 10px;
+  height: 20px;
+  padding-right: 75px;
+  text-align: right;
+  color: #b89778;
+  font-size: 14px;
+  position: relative;
+}
+
+.goback-password span {
+  display: inline-block;
+  height: 1px;
+  width: 56px;
+  background-color: #b89778;
+  position: absolute;
+  top: 20px;
+  right: 75px;
+}
+
+.login-line {
+  background-color:  #e5e5e5;
+  height: 1px;
+  margin: 0 75px;
+  margin-top: 100px;
+}
+
+.become {
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 30px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-family: 'Arial',sans-serif;
+  color: #25282a;
+  padding-left: 75px;
+  margin-top: 25px;
+}
+
+.welcome {
+  padding: 0 75px;
+  font-family: tahoma, arial, helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  font-style: normal;
+  color: #000;
+  line-height: 2em;
+}
+
+.create {
+  height: 50px;
+  width: 116px;
+  text-align: center;
+  background: #f4f4f4;
+  border: 1px solid #ebebeb;
+  color: #939ba0;
+  font-size: 14px;
+  line-height: 48px;
+  margin-right: 75px;
+  float: right;
+  outline: none;
+}
+
+.create:hover {
+  background-color: #7b706c;
+  color: #fff;
+}
+

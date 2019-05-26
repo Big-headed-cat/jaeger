@@ -1,0 +1,1 @@
+"use strict";window.onscroll=function(){var o=document.querySelector(".bar");35<window.scrollY?o.style.marginTop="0":o.style.marginTop="35px"};

@@ -1,0 +1,1 @@
+"use strict";require(["../../static/conf/config.js"],function(){require(["sw","jquery","css!styles/views/base.css","css!styles/views/home/index.css"],function(e,s){console.log(s);new e(".swiper-container",{spaceBetween:30,centeredSlides:!0,autoplay:{delay:3e3,disableOnInteraction:!1},navigation:{nextEl:".swiper-button-next",prevEl:".swiper-button-prev"}})})});

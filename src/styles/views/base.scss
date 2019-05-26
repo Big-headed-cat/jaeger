@@ -1,0 +1,84 @@
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+input,
+textarea,
+option,
+td,
+th,
+fieldset,
+hr,
+legend,
+dl,
+ol,
+dd,
+select {
+    padding: 0;
+    margin: 0;
+}
+li {
+    list-style: none;
+}
+
+img {
+    border: none;
+}
+
+a {
+    font-size: 12px;
+    text-decoration: none;
+}
+
+em,
+i {
+    font-style: normal;
+}
+
+input,
+textarea {
+    outline: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+b,
+strong {
+    font-weight: normal;
+}
+
+.clear:after{
+    content: "";
+    display: block;
+    clear: both;
+    height: 0;
+    line-height: 0;
+    overflow: hidden;
+}
+
+.clear{
+    zoom: 1;
+}
+
+.fl{
+    float: left;
+}
+
+.fr{
+    float: right;
+}
+
+.center{
+    position: relative;
+    width:1226px;
+    margin: 0 auto;
+}

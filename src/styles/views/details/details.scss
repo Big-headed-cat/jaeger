@@ -1,0 +1,670 @@
+body,
+html,
+ul,
+p,
+h6,
+h2,
+button,
+h5 {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration:none;
+}
+
+/* header */
+.header {
+  height: 30px;
+  background-color: #000;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.header-right {
+  float: right;
+  height: 35px;
+}
+
+.header-nav {
+  height: 35px;
+}
+
+.header-nav li {
+  padding: 0 12px;
+  float: left;
+  font-size: 10px;
+  font-family: "Arial", Helvetica, sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  color: #fff;
+  line-height: 35px;
+  border-top: 2px solid transparent;
+}
+
+.header-nav li a {
+  color: #fff;
+  text-decoration: none;
+}
+.nav-line {
+  display: inline-block;
+  width: 1px;
+  height: 16px;
+  background-color: #7b706c;
+  position: absolute;
+  top: 8px;
+}
+
+.icon_arrow {
+  display: inline-block;
+  width: 12px;
+  height: 9px;
+  background-image: url(https://www.jaeger-lecoultre.cn/etc/designs/richemont-jlc/clientlibs/jlc-framework-header/assets/images/icons/icon-arrow-down-bronze.svg);
+  background-repeat: no-repeat;
+  background-position: 0 4px;
+  margin-left: 7.5px;
+}
+
+.nav_user {
+  display: inline-block;
+  width: 36px;
+  height: 12px;
+  background-image: url(../../../static/imgs/header_nav3.png);
+  margin-right: 8px;
+}
+
+.nav_search {
+  display: inline-block;
+  width: 12px;
+  height: 13px;
+  background-image: url(https://www.jaeger-lecoultre.cn/etc/designs/richemont-jlc/clientlibs/jlc-framework-header/assets/images/icons/icon-search-bronze.svg);
+  background-repeat: no-repeat;
+  margin-left: .625em;
+  vertical-align: middle;
+}
+
+.nav_bag {
+  display: inline-block;
+  width: 20px;
+  height: 15px;
+  background-image: url(https://www.jaeger-lecoultre.cn/etc/designs/richemont-jlc/clientlibs/jlc-framework-header/assets/images/icons/icon-basket-bronze.svg);
+  background-repeat: no-repeat;
+}
+
+.nav_top_line {
+  border-top: 2px solid #7b706c!important;
+}
+
+.header-nav li:hover {
+  border-top-color: #7b706c;
+}
+
+.header-left {
+  height: 35px;
+  color: #fff;
+  font-weight: normal;
+  font-style: normal;
+  text-transform: none;
+  font-size: 14px;
+}
+
+.header-home {
+  width: 15px;
+  height: 12.25px;
+  display: inline-block;
+  background-image: url(https://www.jaeger-lecoultre.cn/etc/designs/richemont-jlc/clientlibs/jlc-framework-header/assets/images/icons/icon-home-white.svg);
+  background-repeat: no-repeat;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.header-left .left-R {
+  display: inline-block;
+  margin-left: 10px;
+  font-family: bembo;
+  font-weight: normal;
+  font-style: italic;
+  color: #fff;
+  text-transform: none;
+  font-size: 14px;
+  padding-right: 5px;
+}
+
+.header-left .left-moon {
+  margin-left: 10px;
+  font-family: bembosemi;
+  font-weight: normal;
+  font-style: italic;
+  color: #fff;
+  text-transform: none;
+  font-size: 14px;
+}
+
+/* bar */
+.bar {
+  height: 100%;
+  background-color: #f9f9f9;
+  position: fixed;
+  top: 0;
+  box-sizing: border-box;
+  margin-top: 35px;
+  border-bottom: 7px solid #9b8a6d;
+}
+
+.bar-logo {
+  height: 80px;
+  width: 100px;
+  background-image: url("https://www.jaeger-lecoultre.cn/etc/designs/richemont-jlc/clientlibs/jlc-framework-header/assets/images/svg/jl-anchor.svg.resource.1461595313723.svg");
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-position-x: center;
+  position: relative;
+}
+
+.logo-line {
+  display: block;
+  height: 6px;
+  width: 50px;
+  background-color: #bf9474;
+  position: absolute;
+  bottom: 0;
+  left: 25px;
+}
+
+.three-line {
+  height: 28px;
+  width: 28px;
+  cursor: pointer;
+  margin: 20px auto;
+}
+
+.three-line p {
+  height: 4px;
+  width: 28px;
+  background-color: #000;
+  margin: 5px 0;
+}
+
+.consultant {
+  height: 28px;
+  width: 100px;
+  margin: 10px 0;
+  background-image: url("https://www.jaeger-lecoultre.cn/etc/designs/richemont-jlc/clientlibs/jlc-framework-header/assets/images/icons/icon-concierge.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 20%;
+}
+
+.share {
+  height: 28px;
+  width: 100px;
+  margin: 10px 0;
+  background-image: url("https://www.jaeger-lecoultre.cn/etc/designs/richemont-jlc/clientlibs/jlc-framework-header/assets/images/icons/icon-share.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 20%;
+}
+
+.search {
+  height: 28px;
+  width: 100px;
+  margin: 10px 0;
+  background-image: url("https://www.jaeger-lecoultre.cn/etc/designs/richemont-jlc/clientlibs/jlc-framework-header/assets/images/icons/icon-search.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 20%;
+}
+
+.bottom-box {
+  position: absolute;
+  bottom: 20px;
+}
+
+
+/* content */
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.box{
+  width: 100%;
+  flex: 1;
+  display: flex;
+  position: relative;
+}
+
+.content{
+  width: calc(100% - 100px);
+  flex: 1;
+  padding-left: 100px;
+}
+
+.content-center-top {
+  height: 730px;
+  background-color: #f0f0f0;
+  position: relative;
+}
+
+.content h2 {
+  font-family: "bembo",Georgia,serif;
+  letter-spacing: 0;
+  padding: 30px 0 10px 90px;
+  font-size: 36px;
+  font-weight: normal;
+  font-style: italic;
+
+  top: 30px;
+  left: 90px;
+}
+
+.platinum {
+  font-size: 12px;
+  color: #2A2F32;
+  padding-left: 90px;
+}
+
+.platinum-line {
+  height: 1px;
+  width: 275px;
+  margin-left: 90px;
+  margin-top: 10px;
+  background-color: #000000;
+}
+
+.pro-number {
+  font-size: 12px;
+  font-family: Arial,sans-serif;
+  font-weight: bolder;
+  letter-spacing: .0625em;
+  margin: 10px 0 20px 80px;
+  padding: 0 10px;
+  color: #2a2f32;
+}
+
+.options {
+  height: 567px;
+  width: 430px;
+  position: absolute;
+  right: 80px;
+}
+
+.options-price {
+  font-size: 32px;
+  color: #333;
+  height: 45px;
+  line-height: 45px;
+}
+
+.price-tax {
+  font-size: 12px;
+  color: #a3a3a3;
+}
+
+.add-shop {
+  cursor: pointer;
+  border: 0;
+  outline: none;
+  background-color: transparent;
+  height: 64px;
+  width: 120px;
+  font-size: 20px;
+  font-family: "Arial", Helvetica, sans-serif;
+  color: #333;
+  padding: 10px 0;
+  border-bottom: 2px solid #000;
+}
+
+.pro-delivery {
+  color: #a3a3a3;
+  font-weight: normal;
+  font-size: 12px;
+  margin-top: 20px;
+}
+
+.options-item li {
+  float: left;
+  height: 30px;
+  width: 30px;
+  background: url("../../../static/imgs/item.png");
+  background-position: 0 0;
+  margin-right: 10px;
+}
+
+.item-heart{
+  background-size: cover !important;
+}
+
+.item-tel {
+  background-position: -45px 0 !important;
+  background-size: cover !important;
+
+}
+
+.item-email {
+  background-position: 77px 0 !important;
+  background-size: cover !important;
+}
+
+.item-share {
+  background-position: 30px 0 !important;
+  background-size: cover !important;
+}
+
+/* super heart */
+.super-heart {
+  height: 666px;
+}
+
+.heart-name {
+  font-family: Arial,sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  letter-spacing: 2px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.heart-num {
+  font-style: italic;
+  letter-spacing: 0;
+  color: #b9a584;
+  font-size: 88px;
+  font-weight: normal;
+  text-align: center;
+  line-height: 1em;
+}
+
+.heart-img {
+  width: 540px;
+  height: 490px;
+  padding: 50px 20px 20px;
+  margin: 0 auto;
+  background-color: #f8f6f7;
+}
+
+.heart-img img {
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.heart-img p {
+  font-size: 14px;
+  color: #333;
+  padding: 0 70px 30px;
+  text-align: center;
+}
+
+/* watch */
+.watch {
+  height: 650px;
+}
+
+.watch-same {
+  font-size: 13.2px;
+  color: #333;
+  text-align: center;
+  margin-top: 40px;
+  font-weight: bold;
+}
+
+.watch-series {
+  font-size: 36px;
+  color: #333;
+  font-style: italic;
+  text-align: center;
+}
+
+.title-line {
+  height: 1px;
+  width: 112px;
+}
+
+.watch-box {
+  height: 546px;
+  margin: 40px 70px;
+  margin-bottom: 0;
+}
+
+.watch-box div {
+  float: left;
+  height: 400px;
+  width: 200px;
+  padding: 20px 20px 0 20px;
+  margin: 0 30px;
+}
+
+.watch-box div img {
+  display: block;
+  width: 168px;
+  height: 251px;
+  margin: 0 auto;
+}
+
+.watch-box div h5 {
+  font-size: 14px;
+  color: #000;
+  width: 280px;
+  text-align: center;
+  margin: 15px 0;
+  letter-spacing: .0625em;
+  text-transform: uppercase;
+  position: relative;
+  left: -40px;
+  font-weight: bold;
+}
+
+.watch-box div p {
+  font-size: 14px;
+  font-family: "Arial", Helvetica, sans-serif;
+  text-align: center;
+  letter-spacing: 1.5px;
+}
+
+.watch-box div span {
+  display: block;
+  font-size: 12px;
+  color: rgba(0,0,0,0.5);
+  text-align: center;
+}
+
+.watch-box div button {
+  height: 31px;
+  width: 122px;
+  padding: 6px 24px;
+  cursor: pointer;
+  border: 1px solid #000;
+  border-radius: 0;
+  outline: 0;
+  font-weight: bold;
+  text-align: center;
+  display: block;
+  margin: 20px auto;
+  font-family: "Arial", Helvetica, sans-serif;
+}
+
+.all-series {
+  font-size: 16px;
+  color: #333;
+  height: 80px;
+  line-height: 1em;
+  text-align: center;
+  top: 60px;
+  position: relative;
+  margin: 0 auto;
+  font-family: "Arial", Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.all-series-line {
+  height: 2px;
+  width: 96px;
+  background-color: #bf9474;
+  display: block;
+  margin: 430px auto 0;
+}
+
+/* after sale */
+.after-sale {
+  height: 120px;
+  width: 100%;
+  background-color: #272523;
+}
+
+.after-sale-container {
+  width: 1200px;
+  height: 50px;
+  margin: 0 auto;
+  padding: 35px 0;
+}
+
+.after-sale-list {
+  display: flex;
+  float: left;
+  width: 300px;
+  height: 50px;
+}
+
+.after-sale-list a {
+  display: flex;
+  align-items: center;
+}
+
+.after-sale-list img {
+  margin-right: 20px;
+}
+
+.after-sale-name {
+  font-family: 'Arial', sans-serif;
+  font-size: 12px;
+  color: #fff;
+  display: inline;
+  line-height: 16px;
+}
+
+.after-sale-tel {
+  font-family: 'Arial', sans-serif;
+  font-size: 10px;
+  color: #fff;
+  display: inline;
+  font-weight: bold;
+  letter-spacing: .183em;
+}
+
+/* footer menu */
+.footer-black {
+  height: 50px;
+  background-color: #000;
+}
+
+.footer-menu {
+  height: 250px;
+  background-color: #000;
+}
+
+.footer-menu-container {
+  width: 1200px;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.footer-col {
+  float: left;
+  width: 25%;
+  margin-bottom: 25px;
+}
+
+.footer-menu-list {
+  margin: 0 0 10px;
+  font-size: 12px;
+  color: #fff;
+  font-weight: normal;
+  font-family: 'Arial', sans-serif;
+  letter-spacing: 3px;
+}
+
+.footer-menu-link {
+  font-size: 10px;
+  line-height: 22px;
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
+  color: #747474;
+}
+
+.footer-menu-link:hover {
+  color: #fff;
+}
+
+/* footer bottom */
+.footer-line {
+  height: 19px;
+  background: #000;
+  border-bottom: 1px solid #7b706c;
+}
+
+.footer-bottom {
+  height: 23px;
+  padding: 25px 0;
+  background: #000;
+}
+
+.footer-bottom-container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.copy-span {
+  color: #fff;
+  font-weight: normal;
+  font-style: italic;
+  font-size: 10px;
+}
+
+.footer-bottom-copyright {
+  display: inherit;
+  vertical-align: center;
+  text-align: center;
+}
+
+.footer-bottom-copyright p {
+  display: inline;
+  font-weight: normal;
+  font-style: italic;
+  color: #fff;
+  text-transform: none;
+  font-size: 10px;
+}
+
+.bottom-list {
+  font-weight: bold;
+  font-style: normal;
+  color: #7b706c;
+  text-transform: uppercase;
+  font-size: 10px;
+}
+
+.bottom-point {
+  display: inline-block;
+  height: 3px;
+  width: 3px;
+  background-color: #fff;
+  margin: 3px 15px;
+}
+
+.footer-bottom-copyright img {
+  vertical-align: middle;
+}

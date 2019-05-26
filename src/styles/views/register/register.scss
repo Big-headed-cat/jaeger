@@ -1,0 +1,694 @@
+body,
+html,
+ul,
+p,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration:none;
+}
+
+/* header */
+.header {
+  height: 30px;
+  background-color: #000;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.header-right {
+  float: right;
+  height: 35px;
+}
+
+.header-nav {
+  height: 35px;
+}
+
+.header-nav li {
+  padding: 0 12px;
+  float: left;
+  font-size: 10px;
+  font-family: "Arial";
+  font-weight: bold;
+  font-style: normal;
+  color: #fff;
+  line-height: 35px;
+  border-top: 2px solid transparent;
+}
+
+.nav-line {
+  display: inline-block;
+  width: 1px;
+  height: 16px;
+  background-color: #7b706c;
+  position: absolute;
+  top: 8px;
+}
+
+.icon_arrow {
+  display: inline-block;
+  width: 12px;
+  height: 9px;
+  background-image: url(https://www.jaeger-lecoultre.cn/etc/designs/richemont-jlc/clientlibs/jlc-framework-header/assets/images/icons/icon-arrow-down-bronze.svg);
+  background-repeat: no-repeat;
+  background-position: 0 4px;
+  margin-left: 7.5px;
+}
+
+.nav_user {
+  display: inline-block;
+  width: 36px;
+  height: 12px;
+  background-image: url(../../../static/imgs/header_nav3.png);
+  margin-right: 8px;
+}
+
+.nav_search {
+  display: inline-block;
+  width: 12px;
+  height: 13px;
+  background-image: url(https://www.jaeger-lecoultre.cn/etc/designs/richemont-jlc/clientlibs/jlc-framework-header/assets/images/icons/icon-search-bronze.svg);
+  background-repeat: no-repeat;
+  margin-left: .625em;
+  vertical-align: middle;
+}
+
+.nav_bag {
+  display: inline-block;
+  width: 20px;
+  height: 15px;
+  background-image: url(https://www.jaeger-lecoultre.cn/etc/designs/richemont-jlc/clientlibs/jlc-framework-header/assets/images/icons/icon-basket-bronze.svg);
+  background-repeat: no-repeat;
+}
+
+.nav_top_line {
+  border-top: 2px solid #7b706c!important;
+}
+
+.header-nav li:hover {
+  border-top-color: #7b706c;
+}
+
+.header-left {
+  height: 35px;
+  color: #fff;
+  font-weight: normal;
+  font-style: normal;
+  text-transform: none;
+  font-size: 14px;
+}
+
+.header-home {
+  width: 15px;
+  height: 12.25px;
+  display: inline-block;
+  background-image: url(https://www.jaeger-lecoultre.cn/etc/designs/richemont-jlc/clientlibs/jlc-framework-header/assets/images/icons/icon-home-white.svg);
+  background-repeat: no-repeat;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.header-left span {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+/* bar */
+.bar {
+  height: 100%;
+  background-color: #f9f9f9;
+  position: fixed;
+  top: 0;
+  box-sizing: border-box;
+  margin-top: 35px;
+  border-bottom: 7px solid #9b8a6d;
+}
+
+.bar-logo {
+  height: 80px;
+  width: 100px;
+  background-image: url("https://www.jaeger-lecoultre.cn/etc/designs/richemont-jlc/clientlibs/jlc-framework-header/assets/images/svg/jl-anchor.svg.resource.1461595313723.svg");
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-position-x: center;
+  position: relative;
+}
+
+.logo-line {
+  display: block;
+  height: 6px;
+  width: 50px;
+  background-color: #bf9474;
+  position: absolute;
+  bottom: 0;
+  left: 25px;
+}
+
+.three-line {
+  height: 28px;
+  width: 28px;
+  cursor: pointer;
+  margin: 20px auto;
+}
+
+.three-line p {
+  height: 4px;
+  width: 28px;
+  background-color: #000;
+  margin: 5px 0;
+}
+
+.consultant {
+  height: 28px;
+  width: 100px;
+  margin: 10px 0;
+  background-image: url("https://www.jaeger-lecoultre.cn/etc/designs/richemont-jlc/clientlibs/jlc-framework-header/assets/images/icons/icon-concierge.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 20%;
+}
+
+.share {
+  height: 28px;
+  width: 100px;
+  margin: 10px 0;
+  background-image: url("https://www.jaeger-lecoultre.cn/etc/designs/richemont-jlc/clientlibs/jlc-framework-header/assets/images/icons/icon-share.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 20%;
+}
+
+.search {
+  height: 28px;
+  width: 100px;
+  margin: 10px 0;
+  background-image: url("https://www.jaeger-lecoultre.cn/etc/designs/richemont-jlc/clientlibs/jlc-framework-header/assets/images/icons/icon-search.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 20%;
+}
+
+.bottom-box {
+  position: absolute;
+  bottom: 20px;
+}
+
+
+/* content */
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.box{
+  width: 100%;
+  flex: 1;
+  display: flex;
+  position: relative;
+}
+
+.content{
+  flex: 1;
+  padding-left: 100px;
+}
+
+.content .rect {
+  height: 7px;
+  width: 96px;
+  background: #bf9474;
+  margin: 0 auto;
+}
+
+.content h2 {
+  font-family: "Arial",Helvetica,sans-serif;
+  line-height: 1.42857143;
+  color: #333;
+  font-size: 28px;
+  margin-left: 15px;
+}
+
+.con-txt {
+  width: 750px;
+  height: 180px;
+  padding-left: 60px;
+  padding-top: 8%;
+}
+
+.con-txt .txt1 {
+  font-family: "Arial";
+  font-weight: 400;
+  font-style: normal;
+  color: #000;
+  text-transform: none;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.con-txt .txt2 {
+  margin-top: 45px;
+  font-family: tahoma, arial, helvetica, sans-serif;
+  font-size: 12px;
+}
+
+.content .form {
+  width: 730px;
+  margin-left: 60px;
+}
+
+.form .form-country {
+  height: 40px;
+  width : 400px;
+  padding-right: 25px;
+}
+
+.form-name {
+  display: inline-block;
+  font-family: "Arial",Helvetica,sans-serif;
+  color: #333;
+  font-size: 12px;
+  font-weight: bold;
+  width: 145px;
+}
+
+.form-country .websiteCountry {
+  height: 40px;
+  width: 214px;
+  outline: none;
+  border: 1px solid #ebebeb;
+  background: #f4f4f4;
+  color: #000;
+  font-size: 14px;
+  padding: 10px 15px;
+}
+
+.form-gender .yuan {
+  width: 13px;
+  height: 50px;
+  border-radius: 50%;
+  position: relative;
+  bottom: -17px;
+}
+
+.form-gender span {
+  font-family: "Arial", Helvetica, sans-serif;
+  font-size: 12px;
+  color: #333;
+  font-weight: bold;
+  margin-right: 18px;
+}
+
+.form-firstName,
+.form-lastName,
+.form-firstName1,
+.form-lastName1,
+.form-phone,
+.form-e-mail,
+.form-password,
+.form-password-sure {
+  margin-top: 22px;
+  height: 40px;
+  width : 400px;
+  padding-right: 25px;
+}
+
+.form-input {
+  flex-grow: 1;
+  border: 1px solid #ebebeb;
+  background: #f4f4f4;
+  color: #000;
+  font-size: 14px;
+  padding: 10px 15px;
+  height: 20px;
+  width : 180px;
+  outline: none;
+}
+
+.form p {
+  font-family: "Arial";
+  font-weight: 400;
+  font-style: normal;
+  color: #000;
+  text-transform: none;
+  font-size: 14px;
+}
+
+.true {
+   margin-top: 25px;
+}
+
+.true label {
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  background: #f4f4f4;
+  border: 1px solid #ebebeb;
+}
+
+.true p {
+  vertical-align: middle;
+  display: inline-block;
+  font-family: "Arial",Helvetica,sans-serif;
+  color: #333;
+  font-size: 12px;
+  width: 310px;
+  margin-left: 30px;
+}
+
+.clause {
+  font-family: "Arial";
+  font-weight: 400;
+  font-style: normal;
+  color: #000;
+  text-transform: none;
+  font-size: 14px;
+  margin-top: 25px;
+}
+
+.clause p {
+  margin-bottom: 20px;
+}
+
+.clause span {
+  color: #337AB7;
+}
+
+.date {
+  height: 55px;
+  width: 380px;
+}
+
+#date,
+#month,
+#Year {
+  height: 40px;
+  border: 1px solid #ebebeb;
+  background: #f4f4f4;
+  color: #000;
+  font-size: 14px;
+  padding: 10px 15px;
+  margin-right: 10px;
+}
+
+.date p {
+  color: #333;
+}
+
+.code {
+  margin-top: 20px;
+}
+
+.code-img {
+  height: 33px;
+  width: 66px;
+  background: pink;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.code button {
+  height: 25px;
+  width: 86px;
+  font-family: "Arial", Helvetica, sans-serif;
+  font-size: 14px;
+  color: #333;
+  vertical-align: middle;
+}
+
+.code-input {
+  margin-top: 20px;
+}
+
+.code-input input {
+  width: 325px;
+  border: 1px solid #ebebeb;
+  background: #f4f4f4;
+  color: #000;
+  font-size: 14px;
+  padding: 10px 15px;
+  height: 20px;
+  outline: none;
+}
+
+.form-submit {
+  margin-top: 20px;
+}
+
+.form-submit input {
+  height: 46px;
+  width: 60px;
+  font-family: "Arial";
+  font-weight: bold;
+  font-style: normal;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 14px;
+  background-color: #7b706c;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+
+.form-submit input:hover {
+  background: #000;
+}
+
+/* tel */
+.tel {
+  height: 358px;
+  width: 423px;
+  position: absolute;
+  top: 150px;
+  left: 940px;
+  background: #f8f8f8;
+}
+
+.tel h6 {
+  margin-top: 30px;
+  font-family: "Arial";
+  font-weight: bold;
+  font-style: normal;
+  color: #000;
+  text-transform: uppercase;
+  font-size: 12px;
+  text-align: center;
+}
+
+.tel .number {
+  font-family: bembo;
+  font-weight: normal;
+  font-style: italic;
+  color: #000;
+  text-transform: none;
+  font-size: 14px;
+  text-align: center;
+}
+
+.tel .hours {
+  font-family: "Arial";
+  font-weight: 400;
+  font-style: normal;
+  color: #000;
+  text-transform: none;
+  font-size: 12px;
+  text-align: center;
+  margin: 35px 0;
+}
+
+.tel .order {
+  font-family: "Arial";
+  font-weight: bold;
+  font-style: normal;
+  color: #000;
+  text-transform: uppercase;
+  font-size: 12px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.tel-line1 {
+  display: block;
+  height: 2px;
+  width: 140px;
+  background: #bf9474;
+  margin: 10px auto;
+  margin-bottom: 65px;
+}
+
+.tel-line2 {
+  display: block;
+  height: 2px;
+  width: 90px;
+  background: #bf9474;
+  margin: 10px auto;
+}
+
+/* after sale */
+.after-sale {
+  height: 120px;
+  width: 100%;
+  background-color: #272523;
+}
+
+.after-sale-container {
+  width: 1200px;
+  height: 50px;
+  margin: 0 auto;
+  padding: 35px 0;
+}
+
+.after-sale-list {
+  display: flex;
+  float: left;
+  width: 300px;
+  height: 50px;
+}
+
+.after-sale-list a {
+  display: flex;
+  align-items: center;
+}
+
+.after-sale-list img {
+  margin-right: 20px;
+}
+
+.after-sale-name {
+  font-family: 'Arial', sans-serif;
+  font-size: 12px;
+  color: #fff;
+  display: inline;
+  line-height: 16px;
+}
+
+.after-sale-tel {
+  font-family: 'Arial', sans-serif;
+  font-size: 10px;
+  color: #fff;
+  display: inline;
+  font-weight: bold;
+  letter-spacing: .183em;
+}
+
+/* footer menu */
+.footer-black {
+  height: 50px;
+  background-color: #000;
+}
+
+.footer-menu {
+  height: 250px;
+  background-color: #000;
+}
+
+.footer-menu-container {
+  width: 1200px;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.footer-col {
+  float: left;
+  width: 25%;
+  margin-bottom: 25px;
+}
+
+.footer-menu-list {
+  margin: 0 0 10px;
+  font-size: 12px;
+  color: #fff;
+  font-weight: normal;
+  font-family: 'Arial', sans-serif;
+  letter-spacing: 3px;
+}
+
+.footer-menu-link {
+  font-size: 10px;
+  line-height: 22px;
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
+  color: #747474;
+}
+
+.footer-menu-link:hover {
+  color: #fff;
+}
+
+/* footer bottom */
+.footer-black2 {
+  height: 20px;
+  background-color: #000;
+}
+
+.footer-line {
+  height: 19px;
+  background: #000;
+  border-bottom: 1px solid #7b706c;
+}
+
+.footer-bottom {
+  height: 23px;
+  padding: 25px 0;
+  background: #000;
+}
+
+.footer-bottom-container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.copy-span {
+  color: #fff;
+  font-weight: normal;
+  font-style: italic;
+  font-size: 10px;
+}
+
+.footer-bottom-copyright {
+  display: inherit;
+  vertical-align: center;
+  text-align: center;
+}
+
+.footer-bottom-copyright p {
+  display: inline;
+  font-weight: normal;
+  font-style: italic;
+  color: #fff;
+  text-transform: none;
+  font-size: 10px;
+}
+
+.bottom-list {
+  font-weight: bold;
+  font-style: normal;
+  color: #7b706c;
+  text-transform: uppercase;
+  font-size: 10px;
+}
+
+.bottom-point {
+  display: inline-block;
+  height: 3px;
+  width: 3px;
+  background-color: #fff;
+  margin: 3px 15px;
+}
+
+.footer-bottom-copyright img {
+  vertical-align: middle;
+}
+
